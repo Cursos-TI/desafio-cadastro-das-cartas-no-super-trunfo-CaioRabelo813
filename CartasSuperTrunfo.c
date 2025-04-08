@@ -16,14 +16,14 @@ int main() {
 // Sugestão: Defina variáveis separadas para cada atributo da cidade.
 // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 // Definindo a estrutura das cartas
-struct Cart {
-char Estado[50]; // Nome do estado
-int Codigo; // Código da carta
-char Cidade[50]; // Nome da cidade
-int Populcao; // População
-float Area; // Área em km²
-float Pib; // PIB
-int Pontosturisticos // Números de pontos turísticos
+struct Cart{
+char estado[50]; // Nome do estado
+int codigo; // Código da carta
+char cidade[50]; // Nome da cidade
+int populcao; // População
+float area; // Área em km²
+float pib; // PIB
+int pontosturisticos // Números de pontos turísticos
 };
 
 // Cadastro das Cartas:
@@ -32,7 +32,6 @@ int Pontosturisticos // Números de pontos turísticos
 
 int main(){
 struct Carta carta1, carta2;
-
 // Solicitar e capturar as informações da primeira carta
 printf("Insira as informações da primeira cidade:\n");
 printf("Código da cidade: ");
@@ -49,7 +48,6 @@ printf("PIB: ");
 scanf("%f", &carta1.pib);
 printf("Número de pontos turísticos: ");
 scanf("%d", &carta1.pontosTuristicos)
-
 // Solicitar e capturar as informações da segunda carta
 printf("Insira as informações da segunda cidade:\n");
 printf("Código da cidade: ");
