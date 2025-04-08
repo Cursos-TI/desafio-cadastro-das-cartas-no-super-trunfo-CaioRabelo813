@@ -30,4 +30,5 @@ int main(){
     printf("Cidade: ");
     scanf("%s", carta1.cidade);
     printf("Popula");
+}
 
