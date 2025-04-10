@@ -5,13 +5,14 @@ Este projeto foi desenvolvido como parte dos desafios da trilha de programação
 Criar um sistema em C que simula um jogo de Super Trunfo com cidades brasileiras, incluindo cadastro de cartas, cálculo de atributos e uma batalha de cartas com base em regras matemáticas e comparações lógicas.
 
 🧭 Níveis do Desafio
-Nível Novato (Básico)
+
+*Nível Novato (Básico)
 
 Leitura e exibição de informações de 2 cartas de cidades.
 
 Atributos cadastrados: Estado, Código, Nome, População, Área, PIB, Pontos Turísticos.
 
-Nível Aventureiro (Intermediário)
+*Nível Aventureiro (Intermediário)
 
 Cálculo da Densidade Populacional (População / Área).
 
@@ -19,7 +20,7 @@ Cálculo do PIB per Capita (PIB / População).
 
 Exibição dos resultados com duas casas decimais.
 
-Nível Mestre (Avançado)
+*Nível Mestre (Avançado)
 
 A População passa a ser do tipo unsigned long int.
 
